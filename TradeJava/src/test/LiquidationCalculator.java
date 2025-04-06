@@ -13,7 +13,7 @@ public class LiquidationCalculator {
        double liquidationChance = (liquidations / (double) simulations) * 100;
        System.out.println("Chance of liquidation: " + liquidationChance + "%");
        System.out.println("Execution time: " + (endTime - startTime) + " ms");
-       
+       //git push test
        
    }
    public static boolean runSimulation() {
